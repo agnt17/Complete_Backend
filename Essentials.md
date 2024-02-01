@@ -6,6 +6,14 @@ There is always a listen functionality at the server side means it always listen
 
 ```
 ************************************************Basic Commands***********************************************
-To start the node app: npm init 
-This command
+To start the node app: npm init
+This command is used to create a node app
+
+To install Express: npm i express
 ```
+
+// what is express js:
+
+Express.js is a minimal and flexible Node.js web application framework that provides a robust set of features to develop web and mobile applications. It is designed to make the process of building web applications and APIs with Node.js easier.
+
+Features: Routing, Middlewares, Template Engines, RESTful Api Dev to develpo backend for SPA's.
