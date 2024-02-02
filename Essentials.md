@@ -46,7 +46,7 @@ We have around 65535 virtual ports in our computer which are mostly free and can
 Axios is a JavaScript library that is used to make HTTP requests. It works in both the browser and Node.js environments, allowing you to communicate with a server or an API from your application.
 It supports all the HTTP methods like get, post, put, delete etc.
 
-//********\*\*********\*\*\*********\*\*********How to connect Backend and Frontend********\*\*\*\*********\*\*\*\*********\*\*\*\*********
+//**\*\*\*\***\*\***\*\*\*\***\*\*\***\*\*\*\***\*\***\*\*\*\***How to connect Backend and Frontend**\*\*\*\***\*\*\*\***\*\*\*\***\*\*\*\***\*\*\*\***\*\*\*\***\*\*\*\***
 
 To do this we created both front end and backend in out CONNECTING_BACKEND_FRONTEND project and we fetch data from backend using Axios Library which works just as fetch but it have some merits like it converts all data in required format we dont need to parse data from 1 datatype to other datatype.
 We use UseEffect hook in front end to fetch the data and then set it to the useState hook function.
@@ -58,3 +58,14 @@ Now how to correct it is that we either install the cors application in our back
 Now proxy has also a another role is that it not only appends the api or what we have provided to it but it also makes a that the incoming request is from the provided port. Currently this is not making so much sense.
 
 But what usually happens is that initially we are making request from our frontend for which the default port provided by react is 5173 but after using this our app will behave that request is not coming from 5173 but from server port that is other than 5173 (8000 in our case). Due to this the CORS error will not even originate because the request is coming from same port on which data is stored itself.
+
+**\*\*\*\***\*\***\*\*\*\***WHAT IS MONGOOSE\***\*\*\*\*\***\*\***\*\*\*\*\***
+
+Mongoose is an Object Data Modeling (ODM) library for MongoDB and Node.js. It provides a way to interact with MongoDB using an object-oriented syntax, making it easier to work with MongoDB databases in a Node.js environment.
+
+Features of mongoose:
+
+1. Schema Definition
+2. Model creation
+3. Query Building
+4. Middleware support etc.
